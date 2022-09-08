@@ -1,18 +1,16 @@
 # Yegor Karpenko
 
----
-
 #### Junior .Net & Front End Developer
 
 ---
 
 #### Contact information:
 
-**Phone**: +375 25 522-96-54
-**E-mail**: y.karpenko@itgen.io
-**Telegram**: @kodywin
-[LinkedIn](https://www.linkedin.com/in/yegorkarpenko/)
-[GitHub](https://github.com/karpenkoYegor)
+* **Phone**: +375 25 522-96-54
+* **E-mail**: y.karpenko@itgen.io
+* **Telegram**: @kodywin
+* [LinkedIn](https://www.linkedin.com/in/yegorkarpenko/)
+* [GitHub](https://github.com/karpenkoYegor)
 
 ---
 
