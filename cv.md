@@ -25,3 +25,23 @@ Improve myself constantly, studying something new. Keep moving forward always. T
 * C#, ASP .NET Core, Entity Framework, JS Basic
 * Git, GitHub
 * VS Code, Visual Studio, WebStorm
+
+---
+
+#### Code example:
+##### Unique In Order from Codewars: 
+>Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+##### Solution:
+```
+var uniqueInOrder=function(iterable){
+    if(iterable.length === 0)
+      return [];
+    let result = [];
+    result.push(iterable[0]);
+    for(let i = 0; i<iterable.length; i++){
+        if(result[result.length-1] !== iterable[i])
+            result.push(iterable[i]);
+    }
+    return result;
+}
+```
