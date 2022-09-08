@@ -45,3 +45,18 @@ var uniqueInOrder=function(iterable){
     return result;
 }
 ```
+
+---
+
+#### Education:
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* Masters degree BSPU "Physical and Math education" (2022) 
+* .NET Developer LeverX Group (2021)
+* BSPU after M. Tank (2021)
+
+---
+
+#### Languages
+
+* English (Pre-Intermediate)
+* Russian - Native
