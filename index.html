@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container centerX">
+        <div class="contact">
+            <div class="blockInformation centerX centerY">
+                <img src="img/photo.jpg" alt="Фото студента курса rsschool" class="photoImage">
+            </div>
+            <div class="blockInformation centerX centerY">
+                <h1 class="headerText">YEGOR KARPENKO</h1>
+                <h3 id="position" class="headerText">Junior .Net &amp; Front End Developer</h3>
+            </div>
+            <hr>
+            <div class="blockInformation centerX centerY">
+                <h3 class="headerText">Contact information:</h3>
+                <ul class="whiteText">
+                    <li><b>Phone:</b> +37525 522-96-54</li>
+                    <li><b>E-mail:</b> y.karpenko@itgen.io</li>
+                    <li><b>Telegram:</b> @kodywin</li>
+                    <li><a href="https://www.linkedin.com/in/yegorkarpenko/" class="informationLink">LinkedIn</a></li>
+                    <li><a href="https://github.com/karpenkoYegor" class="informationLink">GitHub</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="blockInformation centerX centerY">
+                <h3 class="headerText">Skills and Proficiency:</h3>
+                <ul class="whiteText">
+                    <li>HTML5, CSS3</li>
+                    <li>C#, ASP .NET Core, Entity Framework, JS Basic</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code, Visual Studio, WebStorm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp">
+            <div class="blockInformation centerX">
+                <div class="pre-header">
+                    <h3>Briefly About Myself:</h3>
+                </div>
+                <p>
+                    Improve myself constantly, studying something new. Keep moving forward always. Try to do all the work properly and to the end. My aim at work is to do more with less time. Don’t like doing much manual work, trying to automate it maximally. While studying at school, I began to study the game development engine Unity. Like algorithms. Quickly grasp new material, responsible, punctual,initiative and responsive.
+                </p>
+            </div>
+            <div class="blockInformation centerX">
+                <div class="pre-header">
+                    <h3>Education</h3>
+                </div>
+                <ul>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
+                    <li>Masters degree BSPU "Physical and Math education" (2022)</li>
+                    <li>.NET Developer LeverX Group (2021)</li>
+                    <li>BSPU after M. Tank (2021)</li>
+                </ul>
+            </div>
+            <div class="blockInformation centerX">
+                <div class="pre-header">
+                    <h3>Languages</h3>
+                </div>
+                <ul>
+                    <li>English (Pre-Intermediate)</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </div>
+            <div class="blockInformation centerX">
+                <div class="pre-header">
+                    <h3>Code Example</h3>
+                </div>
+                <b>Unique In Order from Codewars:</b>
+                <blockquote class="problemDescription">
+                    <p>
+                        Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+                    </p>
+                </blockquote>
+                <div class="solution">
+                    <pre>
+                        <code>
+var uniqueInOrder=function(iterable){
+    if(iterable.length === 0)
+        return [];
+    let result = [];
+    result.push(iterable[0]);
+    for(let i = 0; i &lt; iterable.length; i++){
+        if(result[result.length-1] !== iterable[i])
+            result.push(iterable[i]);
+    }
+    return result;
+}
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

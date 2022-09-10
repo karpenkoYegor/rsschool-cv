@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat Semi-Bold;
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat Extra-Light;
+    src: url(../fonts/Montserrat/static/Montserrat-ExtraLight.ttf);
+}
+body {
+    background-color: #fafafa;
+    font-family: Montserrat Extra-Light;
+    font-size: 1.7vw;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    width: 30vw;
+    background-color: #494e5f;
+    text-align: center;
+}
+.exp {
+    width: 50vw;
+    background-color: #fefefa;
+}
+    .exp .blockInformation {
+        padding-top: 0vh;
+    }
+.centerX {
+    display: flex;
+    justify-content: center;
+}
+.centerY {
+    align-items: center;
+}
+.photoImage {
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20vw;
+}
+.blockInformation {
+    padding-top: 1vh;
+    flex-direction: column;
+}
+    .blockInformation ul{
+        text-align: left;
+        margin-left: 1vw;
+    }
+    .blockInformation pre {
+        padding: 0;
+        margin-left: 1vw;
+    }
+.headerText {
+    font-family: 'Montserrat Semi-Bold';
+    color: #ffe7d4;
+}
+.whiteText {
+    color: #fefefa;
+}
+.informationLink {
+    color:#bdd3ff;
+}
+.pre-header {
+    width: 100%;
+    background-color: #ffe7d4;
+    font-family: 'Montserrat Semi-Bold';
+    color: #494e5f;
+}
+.problemDescription {
+    margin: 2px;
+    padding-left: 1vw;
+    border-left: 0.5vw solid;
+    border-color: black;
+}
